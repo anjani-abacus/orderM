@@ -1,0 +1,44 @@
+[
+  {
+    "id": "svc-1",
+    "name": "SEO",
+    "description": "Search Engine Optimization services to improve organic rankings",
+    "icon": "Search"
+  },
+  {
+    "id": "svc-2",
+    "name": "PPC",
+    "description": "Pay-Per-Click advertising management for Google and social platforms",
+    "icon": "AdsClick"
+  },
+  {
+    "id": "svc-3",
+    "name": "SMO",
+    "description": "Social Media Optimization and management services",
+    "icon": "Share"
+  },
+  {
+    "id": "svc-4",
+    "name": "Web Development",
+    "description": "Custom website development and maintenance",
+    "icon": "Code"
+  },
+  {
+    "id": "svc-5",
+    "name": "Custom Services",
+    "description": "Tailored digital marketing solutions",
+    "icon": "Build"
+  },
+  {
+    "id": "svc-6",
+    "name": "Performance Marketing",
+    "description": "ROI-focused marketing campaigns",
+    "icon": "TrendingUp"
+  },
+  {
+    "id": "svc-7",
+    "name": "GMB",
+    "description": "Google My Business optimization and management",
+    "icon": "LocationOn"
+  }
+]

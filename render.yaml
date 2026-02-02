@@ -1,0 +1,12 @@
+# Render Blueprint - Infrastructure as Code
+# This file tells Render how to deploy your app
+
+services:
+  - type: web
+    name: order-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    branch: main
+    autoDeploy: true
+    envVars: []

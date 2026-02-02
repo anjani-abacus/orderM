@@ -1,0 +1,350 @@
+[
+  {
+    "id": "act-1",
+    "packageId": "pkg-1",
+    "name": "Keyword Research",
+    "description": "Identify target keywords"
+  },
+  {
+    "id": "act-2",
+    "packageId": "pkg-1",
+    "name": "On-Page Optimization",
+    "description": "Meta tags, headings, content optimization"
+  },
+  {
+    "id": "act-3",
+    "packageId": "pkg-1",
+    "name": "Basic Link Building",
+    "description": "Directory submissions and social profiles"
+  },
+  {
+    "id": "act-4",
+    "packageId": "pkg-2",
+    "name": "Advanced Keyword Research",
+    "description": "Comprehensive keyword analysis"
+  },
+  {
+    "id": "act-5",
+    "packageId": "pkg-2",
+    "name": "Technical SEO Audit",
+    "description": "Site speed, mobile optimization, crawlability"
+  },
+  {
+    "id": "act-6",
+    "packageId": "pkg-2",
+    "name": "Content Strategy",
+    "description": "Blog planning and content calendar"
+  },
+  {
+    "id": "act-7",
+    "packageId": "pkg-2",
+    "name": "Quality Link Building",
+    "description": "Guest posting and outreach"
+  },
+  {
+    "id": "act-8",
+    "packageId": "pkg-3",
+    "name": "Enterprise Keyword Strategy",
+    "description": "Full keyword mapping across site"
+  },
+  {
+    "id": "act-9",
+    "packageId": "pkg-3",
+    "name": "Complete Technical Optimization",
+    "description": "Schema markup, Core Web Vitals"
+  },
+  {
+    "id": "act-10",
+    "packageId": "pkg-3",
+    "name": "Premium Content Creation",
+    "description": "High-quality blog posts and infographics"
+  },
+  {
+    "id": "act-11",
+    "packageId": "pkg-3",
+    "name": "Authority Link Building",
+    "description": "High DA backlinks and PR"
+  },
+  {
+    "id": "act-12",
+    "packageId": "pkg-3",
+    "name": "Monthly Reporting",
+    "description": "Comprehensive analytics and insights"
+  },
+  {
+    "id": "act-13",
+    "packageId": "pkg-4",
+    "name": "Campaign Setup",
+    "description": "Google Ads account and campaign setup"
+  },
+  {
+    "id": "act-14",
+    "packageId": "pkg-4",
+    "name": "Keyword Bidding",
+    "description": "Keyword research and bid management"
+  },
+  {
+    "id": "act-15",
+    "packageId": "pkg-4",
+    "name": "Ad Copy Creation",
+    "description": "Basic ad copy writing"
+  },
+  {
+    "id": "act-16",
+    "packageId": "pkg-5",
+    "name": "Multi-Platform Setup",
+    "description": "Google, Facebook, LinkedIn campaigns"
+  },
+  {
+    "id": "act-17",
+    "packageId": "pkg-5",
+    "name": "A/B Testing",
+    "description": "Ad copy and landing page testing"
+  },
+  {
+    "id": "act-18",
+    "packageId": "pkg-5",
+    "name": "Conversion Tracking",
+    "description": "Goal setup and conversion optimization"
+  },
+  {
+    "id": "act-19",
+    "packageId": "pkg-6",
+    "name": "Advanced Campaign Architecture",
+    "description": "Complex campaign structures"
+  },
+  {
+    "id": "act-20",
+    "packageId": "pkg-6",
+    "name": "Remarketing Campaigns",
+    "description": "Audience segmentation and retargeting"
+  },
+  {
+    "id": "act-21",
+    "packageId": "pkg-6",
+    "name": "Advanced Analytics",
+    "description": "Custom dashboards and attribution"
+  },
+  {
+    "id": "act-22",
+    "packageId": "pkg-7",
+    "name": "Profile Setup",
+    "description": "Social media profile optimization"
+  },
+  {
+    "id": "act-23",
+    "packageId": "pkg-7",
+    "name": "Basic Content Posting",
+    "description": "Regular social media posts"
+  },
+  {
+    "id": "act-24",
+    "packageId": "pkg-8",
+    "name": "Content Calendar",
+    "description": "Strategic content planning"
+  },
+  {
+    "id": "act-25",
+    "packageId": "pkg-8",
+    "name": "Community Management",
+    "description": "Engagement and response management"
+  },
+  {
+    "id": "act-26",
+    "packageId": "pkg-8",
+    "name": "Social Analytics",
+    "description": "Performance tracking and reporting"
+  },
+  {
+    "id": "act-27",
+    "packageId": "pkg-9",
+    "name": "Influencer Outreach",
+    "description": "Influencer partnership management"
+  },
+  {
+    "id": "act-28",
+    "packageId": "pkg-9",
+    "name": "Paid Social Campaigns",
+    "description": "Sponsored content and ads"
+  },
+  {
+    "id": "act-29",
+    "packageId": "pkg-9",
+    "name": "Video Content Strategy",
+    "description": "Video production and distribution"
+  },
+  {
+    "id": "act-30",
+    "packageId": "pkg-10",
+    "name": "Template Selection",
+    "description": "Website template customization"
+  },
+  {
+    "id": "act-31",
+    "packageId": "pkg-10",
+    "name": "Basic Pages",
+    "description": "Home, About, Contact, Services pages"
+  },
+  {
+    "id": "act-32",
+    "packageId": "pkg-10",
+    "name": "Mobile Responsive",
+    "description": "Mobile-friendly design"
+  },
+  {
+    "id": "act-33",
+    "packageId": "pkg-11",
+    "name": "Custom Design",
+    "description": "Unique website design"
+  },
+  {
+    "id": "act-34",
+    "packageId": "pkg-11",
+    "name": "CMS Integration",
+    "description": "Content management system setup"
+  },
+  {
+    "id": "act-35",
+    "packageId": "pkg-11",
+    "name": "SEO Optimization",
+    "description": "On-page SEO implementation"
+  },
+  {
+    "id": "act-36",
+    "packageId": "pkg-12",
+    "name": "Custom Development",
+    "description": "Bespoke web application"
+  },
+  {
+    "id": "act-37",
+    "packageId": "pkg-12",
+    "name": "API Integration",
+    "description": "Third-party API connections"
+  },
+  {
+    "id": "act-38",
+    "packageId": "pkg-12",
+    "name": "Security Implementation",
+    "description": "Enterprise security measures"
+  },
+  {
+    "id": "act-39",
+    "packageId": "pkg-13",
+    "name": "Needs Assessment",
+    "description": "Custom requirements analysis"
+  },
+  {
+    "id": "act-40",
+    "packageId": "pkg-13",
+    "name": "Basic Customization",
+    "description": "Tailored marketing activities"
+  },
+  {
+    "id": "act-41",
+    "packageId": "pkg-14",
+    "name": "Strategy Development",
+    "description": "Custom marketing strategy"
+  },
+  {
+    "id": "act-42",
+    "packageId": "pkg-14",
+    "name": "Multi-Channel Implementation",
+    "description": "Cross-platform execution"
+  },
+  {
+    "id": "act-43",
+    "packageId": "pkg-15",
+    "name": "Enterprise Strategy",
+    "description": "Comprehensive marketing roadmap"
+  },
+  {
+    "id": "act-44",
+    "packageId": "pkg-15",
+    "name": "Dedicated Team",
+    "description": "Dedicated marketing resources"
+  },
+  {
+    "id": "act-45",
+    "packageId": "pkg-16",
+    "name": "Campaign Setup",
+    "description": "Performance campaign configuration"
+  },
+  {
+    "id": "act-46",
+    "packageId": "pkg-16",
+    "name": "Basic Optimization",
+    "description": "ROAS focused optimization"
+  },
+  {
+    "id": "act-47",
+    "packageId": "pkg-17",
+    "name": "Growth Strategy",
+    "description": "Scalable performance campaigns"
+  },
+  {
+    "id": "act-48",
+    "packageId": "pkg-17",
+    "name": "Attribution Modeling",
+    "description": "Multi-touch attribution"
+  },
+  {
+    "id": "act-49",
+    "packageId": "pkg-18",
+    "name": "Full Funnel Marketing",
+    "description": "Complete customer journey"
+  },
+  {
+    "id": "act-50",
+    "packageId": "pkg-18",
+    "name": "Advanced Automation",
+    "description": "Marketing automation setup"
+  },
+  {
+    "id": "act-51",
+    "packageId": "pkg-19",
+    "name": "GMB Profile Setup",
+    "description": "Google Business Profile creation"
+  },
+  {
+    "id": "act-52",
+    "packageId": "pkg-19",
+    "name": "Basic Optimization",
+    "description": "Profile information optimization"
+  },
+  {
+    "id": "act-53",
+    "packageId": "pkg-20",
+    "name": "Review Management",
+    "description": "Review response and monitoring"
+  },
+  {
+    "id": "act-54",
+    "packageId": "pkg-20",
+    "name": "Google Posts",
+    "description": "Regular Google Posts updates"
+  },
+  {
+    "id": "act-55",
+    "packageId": "pkg-20",
+    "name": "Local Citations",
+    "description": "Local directory listings"
+  },
+  {
+    "id": "act-56",
+    "packageId": "pkg-21",
+    "name": "Complete Local SEO",
+    "description": "Full local search optimization"
+  },
+  {
+    "id": "act-57",
+    "packageId": "pkg-21",
+    "name": "Reputation Management",
+    "description": "Online reputation monitoring"
+  },
+  {
+    "id": "act-58",
+    "packageId": "pkg-21",
+    "name": "Local Content Strategy",
+    "description": "Location-based content creation"
+  }
+]

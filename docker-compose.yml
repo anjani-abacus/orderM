@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  order-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: order-app
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    # Uncomment below for development with hot-reload
+    # volumes:
+    #   - ./src:/app/src
+    #   - ./public:/app/public

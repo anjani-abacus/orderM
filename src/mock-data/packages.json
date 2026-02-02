@@ -1,0 +1,170 @@
+[
+  {
+    "id": "pkg-1",
+    "serviceId": "svc-1",
+    "name": "SEO Basic",
+    "tier": "Basic",
+    "price": 15000,
+    "description": "Essential SEO for small businesses"
+  },
+  {
+    "id": "pkg-2",
+    "serviceId": "svc-1",
+    "name": "SEO Standard",
+    "tier": "Standard",
+    "price": 30000,
+    "description": "Comprehensive SEO for growing businesses"
+  },
+  {
+    "id": "pkg-3",
+    "serviceId": "svc-1",
+    "name": "SEO Premium",
+    "tier": "Premium",
+    "price": 50000,
+    "description": "Advanced SEO with complete optimization"
+  },
+  {
+    "id": "pkg-4",
+    "serviceId": "svc-2",
+    "name": "PPC Starter",
+    "tier": "Basic",
+    "price": 20000,
+    "description": "Basic PPC campaign management"
+  },
+  {
+    "id": "pkg-5",
+    "serviceId": "svc-2",
+    "name": "PPC Growth",
+    "tier": "Standard",
+    "price": 40000,
+    "description": "Multi-platform PPC management"
+  },
+  {
+    "id": "pkg-6",
+    "serviceId": "svc-2",
+    "name": "PPC Enterprise",
+    "tier": "Premium",
+    "price": 75000,
+    "description": "Enterprise-level PPC with advanced analytics"
+  },
+  {
+    "id": "pkg-7",
+    "serviceId": "svc-3",
+    "name": "SMO Essentials",
+    "tier": "Basic",
+    "price": 12000,
+    "description": "Basic social media management"
+  },
+  {
+    "id": "pkg-8",
+    "serviceId": "svc-3",
+    "name": "SMO Professional",
+    "tier": "Standard",
+    "price": 25000,
+    "description": "Professional social media strategy"
+  },
+  {
+    "id": "pkg-9",
+    "serviceId": "svc-3",
+    "name": "SMO Premium",
+    "tier": "Premium",
+    "price": 45000,
+    "description": "Complete social media domination"
+  },
+  {
+    "id": "pkg-10",
+    "serviceId": "svc-4",
+    "name": "Website Basic",
+    "tier": "Basic",
+    "price": 35000,
+    "description": "Simple business website"
+  },
+  {
+    "id": "pkg-11",
+    "serviceId": "svc-4",
+    "name": "Website Pro",
+    "tier": "Standard",
+    "price": 75000,
+    "description": "Professional website with CMS"
+  },
+  {
+    "id": "pkg-12",
+    "serviceId": "svc-4",
+    "name": "Website Enterprise",
+    "tier": "Premium",
+    "price": 150000,
+    "description": "Custom enterprise web application"
+  },
+  {
+    "id": "pkg-13",
+    "serviceId": "svc-5",
+    "name": "Custom Basic",
+    "tier": "Basic",
+    "price": 25000,
+    "description": "Customized basic marketing package"
+  },
+  {
+    "id": "pkg-14",
+    "serviceId": "svc-5",
+    "name": "Custom Pro",
+    "tier": "Standard",
+    "price": 50000,
+    "description": "Tailored professional marketing"
+  },
+  {
+    "id": "pkg-15",
+    "serviceId": "svc-5",
+    "name": "Custom Enterprise",
+    "tier": "Premium",
+    "price": 100000,
+    "description": "Bespoke enterprise marketing solution"
+  },
+  {
+    "id": "pkg-16",
+    "serviceId": "svc-6",
+    "name": "Performance Starter",
+    "tier": "Basic",
+    "price": 30000,
+    "description": "Basic performance marketing"
+  },
+  {
+    "id": "pkg-17",
+    "serviceId": "svc-6",
+    "name": "Performance Growth",
+    "tier": "Standard",
+    "price": 60000,
+    "description": "Growth-focused performance campaigns"
+  },
+  {
+    "id": "pkg-18",
+    "serviceId": "svc-6",
+    "name": "Performance Max",
+    "tier": "Premium",
+    "price": 120000,
+    "description": "Maximum ROI performance marketing"
+  },
+  {
+    "id": "pkg-19",
+    "serviceId": "svc-7",
+    "name": "GMB Basic",
+    "tier": "Basic",
+    "price": 8000,
+    "description": "Basic GMB setup and optimization"
+  },
+  {
+    "id": "pkg-20",
+    "serviceId": "svc-7",
+    "name": "GMB Pro",
+    "tier": "Standard",
+    "price": 15000,
+    "description": "Professional GMB management"
+  },
+  {
+    "id": "pkg-21",
+    "serviceId": "svc-7",
+    "name": "GMB Premium",
+    "tier": "Premium",
+    "price": 25000,
+    "description": "Complete local SEO with GMB"
+  }
+]
