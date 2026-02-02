@@ -7,6 +7,7 @@ import { DataProvider } from './context/DataContext';
 import ProtectedRoute from './auth/ProtectedRoute';
 import LoginPage from './auth/LoginPage';
 import Dashboard from './components/Dashboard';
+import AnalyticsDashboard from './components/AnalyticsDashboard';
 import OrderForm from './orders/OrderForm';
 import ManageServices from './admin/ManageServices';
 import ManagePackages from './admin/ManagePackages';
@@ -37,6 +38,15 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <OrderForm />
+                  </ProtectedRoute>
+                }
+              />
+
+              <Route
+                path="/analytics"
+                element={
+                  <ProtectedRoute requiredRole="ADMIN">
+                    <AnalyticsDashboard />
                   </ProtectedRoute>
                 }
               />
