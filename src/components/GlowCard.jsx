@@ -1,6 +1,6 @@
 import { Box, alpha } from '@mui/material';
 
-const GlowCard = ({ children, glowColor = '#00f5ff', intensity = 0.3, sx = {}, ...props }) => {
+const GlowCard = ({ children, glowColor = '#84cc16', intensity = 0.3, sx = {}, ...props }) => {
     return (
         <Box
             sx={{

@@ -103,7 +103,7 @@ const OrderForm = () => {
                         variant="h4"
                         sx={{
                             fontWeight: 700,
-                            background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                            background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                             backgroundClip: 'text',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
@@ -123,10 +123,10 @@ const OrderForm = () => {
                         alternativeLabel
                         sx={{
                             '& .MuiStepConnector-line': {
-                                borderColor: alpha('#00f5ff', 0.3),
+                                borderColor: alpha('#84cc16', 0.3),
                             },
                             '& .MuiStepConnector-root.Mui-active .MuiStepConnector-line': {
-                                borderColor: '#00f5ff',
+                                borderColor: '#84cc16',
                             },
                             '& .MuiStepConnector-root.Mui-completed .MuiStepConnector-line': {
                                 borderColor: '#2ed573',

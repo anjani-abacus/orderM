@@ -1,7 +1,7 @@
 import { TextField, alpha } from '@mui/material';
 import { forwardRef } from 'react';
 
-const GlowInput = forwardRef(({ glowColor = '#00f5ff', ...props }, ref) => {
+const GlowInput = forwardRef(({ glowColor = '#84cc16', ...props }, ref) => {
     return (
         <TextField
             ref={ref}

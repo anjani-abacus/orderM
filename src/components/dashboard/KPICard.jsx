@@ -10,7 +10,7 @@ const KPICard = ({
     trendLabel = 'vs last period',
     sparklineData = [],
     icon,
-    color = '#00f5ff',
+    color = '#84cc16',
     format = 'number'
 }) => {
     const getTrendIcon = () => {

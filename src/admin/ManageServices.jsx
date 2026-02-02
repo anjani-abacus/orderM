@@ -94,7 +94,7 @@ const ManageServices = () => {
                             variant="h4"
                             sx={{
                                 fontWeight: 700,
-                                background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                                background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                                 backgroundClip: 'text',
                                 WebkitBackgroundClip: 'text',
                                 color: 'transparent',
@@ -132,7 +132,7 @@ const ManageServices = () => {
                                     <TableRow key={service.id}>
                                         <TableCell>
                                             <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                                                <Category sx={{ color: '#00f5ff', fontSize: 20 }} />
+                                                <Category sx={{ color: '#84cc16', fontSize: 20 }} />
                                                 <Typography fontWeight={500}>{service.name}</Typography>
                                             </Box>
                                         </TableCell>
@@ -150,7 +150,7 @@ const ManageServices = () => {
                                             <Tooltip title="Edit">
                                                 <IconButton
                                                     onClick={() => handleOpenDialog(service)}
-                                                    sx={{ color: '#00f5ff' }}
+                                                    sx={{ color: '#84cc16' }}
                                                 >
                                                     <Edit />
                                                 </IconButton>

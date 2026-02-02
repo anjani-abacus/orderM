@@ -103,11 +103,11 @@ const ManagePackages = () => {
             case 'Basic':
                 return '#2ed573';
             case 'Standard':
-                return '#00f5ff';
+                return '#84cc16';
             case 'Premium':
                 return '#ffa502';
             default:
-                return '#00f5ff';
+                return '#84cc16';
         }
     };
 
@@ -121,7 +121,7 @@ const ManagePackages = () => {
                             variant="h4"
                             sx={{
                                 fontWeight: 700,
-                                background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                                background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                                 backgroundClip: 'text',
                                 WebkitBackgroundClip: 'text',
                                 color: 'transparent',
@@ -163,7 +163,7 @@ const ManagePackages = () => {
                                         <TableRow key={pkg.id}>
                                             <TableCell>
                                                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                                                    <Inventory sx={{ color: '#00f5ff', fontSize: 20 }} />
+                                                    <Inventory sx={{ color: '#84cc16', fontSize: 20 }} />
                                                     <Typography fontWeight={500}>{pkg.name}</Typography>
                                                 </Box>
                                             </TableCell>
@@ -203,7 +203,7 @@ const ManagePackages = () => {
                                                 <Tooltip title="Edit">
                                                     <IconButton
                                                         onClick={() => handleOpenDialog(pkg)}
-                                                        sx={{ color: '#00f5ff' }}
+                                                        sx={{ color: '#84cc16' }}
                                                     >
                                                         <Edit />
                                                     </IconButton>

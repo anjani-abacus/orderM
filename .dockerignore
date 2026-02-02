@@ -30,6 +30,4 @@ Thumbs.db
 README.md
 *.md
 
-# Docker files (avoid recursive copy)
-docker-compose.yml
-.dockerignore
+

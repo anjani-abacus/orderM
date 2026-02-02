@@ -129,7 +129,7 @@ const Dashboard = () => {
                             variant="h4"
                             sx={{
                                 fontWeight: 700,
-                                background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                                background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                                 backgroundClip: 'text',
                                 WebkitBackgroundClip: 'text',
                                 color: 'transparent',
@@ -156,7 +156,7 @@ const Dashboard = () => {
                                 trendLabel="vs last period"
                                 sparklineData={kpiMetrics.ordersSparkline}
                                 icon={<ShoppingCart />}
-                                color="#00f5ff"
+                                color="#84cc16"
                             />
                         </Box>
                     </Grid>
@@ -197,7 +197,7 @@ const Dashboard = () => {
                                 trend={0}
                                 trendLabel="of orders"
                                 icon={<CheckCircle />}
-                                color="#0080ff"
+                                color="#65a30d"
                             />
                         </Box>
                     </Grid>

@@ -99,7 +99,7 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
     const SectionHeader = ({ icon, title }) => (
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
             {icon}
-            <Typography variant="h6" sx={{ color: '#00f5ff' }}>
+            <Typography variant="h6" sx={{ color: '#84cc16' }}>
                 {title}
             </Typography>
         </Box>
@@ -110,11 +110,11 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
             case 'Basic':
                 return '#2ed573';
             case 'Standard':
-                return '#00f5ff';
+                return '#84cc16';
             case 'Premium':
                 return '#ffa502';
             default:
-                return '#00f5ff';
+                return '#84cc16';
         }
     };
 
@@ -122,7 +122,7 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
         <form onSubmit={handleSubmit(handleFormSubmit)}>
             {/* Service Selection */}
             <SectionHeader
-                icon={<Category sx={{ color: '#00f5ff' }} />}
+                icon={<Category sx={{ color: '#84cc16' }} />}
                 title="Select Service"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
@@ -169,7 +169,7 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
                                                         fontSize: '0.7rem',
                                                     }}
                                                 />
-                                                <span style={{ color: '#00f5ff', marginLeft: 8 }}>
+                                                <span style={{ color: '#84cc16', marginLeft: 8 }}>
                                                     ₹{pkg.price.toLocaleString('en-IN')}
                                                 </span>
                                             </Box>
@@ -189,7 +189,7 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
             {activities.length > 0 && (
                 <>
                     <SectionHeader
-                        icon={<Inventory sx={{ color: '#00f5ff' }} />}
+                        icon={<Inventory sx={{ color: '#84cc16' }} />}
                         title="Package Activities"
                     />
                     <Box
@@ -197,8 +197,8 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
                             mb: 4,
                             p: 2,
                             borderRadius: 2,
-                            background: alpha('#00f5ff', 0.05),
-                            border: `1px solid ${alpha('#00f5ff', 0.2)}`,
+                            background: alpha('#84cc16', 0.05),
+                            border: `1px solid ${alpha('#84cc16', 0.2)}`,
                         }}
                     >
                         <List dense>
@@ -219,11 +219,11 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
                 </>
             )}
 
-            <Divider sx={{ my: 4, borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ my: 4, borderColor: alpha('#84cc16', 0.2) }} />
 
             {/* Campaign Details */}
             <SectionHeader
-                icon={<CalendarMonth sx={{ color: '#00f5ff' }} />}
+                icon={<CalendarMonth sx={{ color: '#84cc16' }} />}
                 title="Campaign Details"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
@@ -302,12 +302,12 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
                     sx={{
                         p: 3,
                         borderRadius: 2,
-                        background: alpha('#00f5ff', 0.1),
-                        border: `1px solid ${alpha('#00f5ff', 0.3)}`,
+                        background: alpha('#84cc16', 0.1),
+                        border: `1px solid ${alpha('#84cc16', 0.3)}`,
                         mb: 4,
                     }}
                 >
-                    <Typography variant="h6" sx={{ color: '#00f5ff', mb: 2 }}>
+                    <Typography variant="h6" sx={{ color: '#84cc16', mb: 2 }}>
                         Order Summary
                     </Typography>
                     <Grid container spacing={2}>
@@ -334,7 +334,7 @@ const ServiceSelectionStep = ({ formData, onBack, onSubmit }) => {
                             <Typography
                                 variant="h5"
                                 sx={{
-                                    color: '#00f5ff',
+                                    color: '#84cc16',
                                     fontWeight: 700,
                                     textShadow: '0 0 10px rgba(0,245,255,0.3)',
                                 }}

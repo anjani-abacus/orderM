@@ -77,7 +77,7 @@ const LoginPage = () => {
                             variant="h3"
                             sx={{
                                 fontWeight: 700,
-                                background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                                background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                                 backgroundClip: 'text',
                                 WebkitBackgroundClip: 'text',
                                 color: 'transparent',
@@ -109,7 +109,7 @@ const LoginPage = () => {
                             InputProps={{
                                 startAdornment: (
                                     <InputAdornment position="start">
-                                        <Email sx={{ color: alpha('#00f5ff', 0.7) }} />
+                                        <Email sx={{ color: alpha('#84cc16', 0.7) }} />
                                     </InputAdornment>
                                 ),
                             }}
@@ -126,7 +126,7 @@ const LoginPage = () => {
                             InputProps={{
                                 startAdornment: (
                                     <InputAdornment position="start">
-                                        <Lock sx={{ color: alpha('#00f5ff', 0.7) }} />
+                                        <Lock sx={{ color: alpha('#84cc16', 0.7) }} />
                                     </InputAdornment>
                                 ),
                                 endAdornment: (
@@ -175,8 +175,8 @@ const LoginPage = () => {
                                 sx={{
                                     p: 2,
                                     borderRadius: 2,
-                                    background: alpha('#00f5ff', 0.1),
-                                    border: `1px solid ${alpha('#00f5ff', 0.2)}`,
+                                    background: alpha('#84cc16', 0.1),
+                                    border: `1px solid ${alpha('#84cc16', 0.2)}`,
                                 }}
                             >
                                 <Typography variant="caption" color="primary">
@@ -193,8 +193,8 @@ const LoginPage = () => {
                                 sx={{
                                     p: 2,
                                     borderRadius: 2,
-                                    background: alpha('#0080ff', 0.1),
-                                    border: `1px solid ${alpha('#0080ff', 0.2)}`,
+                                    background: alpha('#65a30d', 0.1),
+                                    border: `1px solid ${alpha('#65a30d', 0.2)}`,
                                 }}
                             >
                                 <Typography variant="caption" color="secondary">

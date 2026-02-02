@@ -1,7 +1,7 @@
 // Chart theme configuration matching the existing neon cyan/blue theme
 export const chartColors = {
-    primary: '#00f5ff',
-    secondary: '#0080ff',
+    primary: '#84cc16',
+    secondary: '#65a30d',
     success: '#2ed573',
     warning: '#ffa502',
     error: '#ff4757',
@@ -14,7 +14,7 @@ export const chartColors = {
 
 // Status color mapping
 export const statusColors = {
-    CREATED: '#0080ff',
+    CREATED: '#65a30d',
     IN_PROGRESS: '#ffa502',
     COMPLETED: '#2ed573',
     CANCELLED: '#ff4757',
@@ -46,7 +46,7 @@ export const tooltipStyle = {
         boxShadow: '0 0 20px rgba(0, 245, 255, 0.2)',
     },
     labelStyle: {
-        color: '#00f5ff',
+        color: '#84cc16',
         fontWeight: 600,
     },
     itemStyle: {
@@ -62,8 +62,8 @@ export const areaGradient = {
     x2: '0',
     y2: '1',
     stops: [
-        { offset: '0%', color: '#00f5ff', opacity: 0.4 },
-        { offset: '100%', color: '#00f5ff', opacity: 0 },
+        { offset: '0%', color: '#84cc16', opacity: 0.4 },
+        { offset: '100%', color: '#84cc16', opacity: 0 },
     ],
 };
 

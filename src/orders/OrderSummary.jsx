@@ -45,8 +45,8 @@ const OrderSummary = ({ order, onNewOrder }) => {
               color: #333;
             }
             h1 {
-              color: #0080ff;
-              border-bottom: 2px solid #00f5ff;
+              color: #65a30d;
+              border-bottom: 2px solid #84cc16;
               padding-bottom: 10px;
             }
             .section {
@@ -55,7 +55,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
             .section-title {
               font-size: 18px;
               font-weight: bold;
-              color: #0080ff;
+              color: #65a30d;
               margin-bottom: 15px;
               display: flex;
               align-items: center;
@@ -80,7 +80,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
             }
             .total {
               font-size: 24px;
-              color: #0080ff;
+              color: #65a30d;
               font-weight: bold;
             }
             .activity-list {
@@ -106,7 +106,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
               font-size: 12px;
               font-weight: 500;
               background: #e3f2fd;
-              color: #0080ff;
+              color: #65a30d;
             }
             @media print {
               body { padding: 20px; }
@@ -230,7 +230,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
     const SectionHeader = ({ icon, title }) => (
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
             {icon}
-            <Typography variant="h6" sx={{ color: '#00f5ff' }}>
+            <Typography variant="h6" sx={{ color: '#84cc16' }}>
                 {title}
             </Typography>
         </Box>
@@ -263,7 +263,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     variant="h4"
                     sx={{
                         fontWeight: 700,
-                        background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                        background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                         backgroundClip: 'text',
                         WebkitBackgroundClip: 'text',
                         color: 'transparent',
@@ -295,7 +295,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     <Grid item xs={12} md={6}>
                         <GlowCard>
                             <SectionHeader
-                                icon={<Business sx={{ color: '#00f5ff' }} />}
+                                icon={<Business sx={{ color: '#84cc16' }} />}
                                 title="Company Details"
                             />
                             <InfoField label="Company Name" value={order.companyName} />
@@ -307,7 +307,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     <Grid item xs={12} md={6}>
                         <GlowCard>
                             <SectionHeader
-                                icon={<Person sx={{ color: '#00f5ff' }} />}
+                                icon={<Person sx={{ color: '#84cc16' }} />}
                                 title="Client Details"
                             />
                             <InfoField label="Client Name" value={order.clientName} />
@@ -320,14 +320,14 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     <Grid item xs={12} md={6}>
                         <GlowCard>
                             <SectionHeader
-                                icon={<LocationOn sx={{ color: '#00f5ff' }} />}
+                                icon={<LocationOn sx={{ color: '#84cc16' }} />}
                                 title="Billing Address"
                             />
                             <Typography variant="body1">{order.billingAddress}</Typography>
                             <Typography variant="body1">
                                 {order.city}, {order.state}, {order.country} - {order.zipCode}
                             </Typography>
-                            <Divider sx={{ my: 2, borderColor: alpha('#00f5ff', 0.2) }} />
+                            <Divider sx={{ my: 2, borderColor: alpha('#84cc16', 0.2) }} />
                             <InfoField label="Representative" value={order.representativeName} />
                             <InfoField label="Representative Email" value={order.representativeEmail} />
                         </GlowCard>
@@ -337,7 +337,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     <Grid item xs={12} md={6}>
                         <GlowCard>
                             <SectionHeader
-                                icon={<Category sx={{ color: '#00f5ff' }} />}
+                                icon={<Category sx={{ color: '#84cc16' }} />}
                                 title="Service Details"
                             />
                             <InfoField label="Service" value={order.serviceName} />
@@ -353,8 +353,8 @@ const OrderSummary = ({ order, onNewOrder }) => {
                                         label={order.packageTier}
                                         size="small"
                                         sx={{
-                                            background: alpha('#00f5ff', 0.2),
-                                            color: '#00f5ff',
+                                            background: alpha('#84cc16', 0.2),
+                                            color: '#84cc16',
                                         }}
                                     />
                                 </Box>
@@ -366,7 +366,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                     <Grid item xs={12}>
                         <GlowCard>
                             <SectionHeader
-                                icon={<CheckCircle sx={{ color: '#00f5ff' }} />}
+                                icon={<CheckCircle sx={{ color: '#84cc16' }} />}
                                 title="Activities Included"
                             />
                             <Grid container spacing={2}>
@@ -379,7 +379,7 @@ const OrderSummary = ({ order, onNewOrder }) => {
                                                 gap: 1,
                                                 p: 1.5,
                                                 borderRadius: 1,
-                                                background: alpha('#00f5ff', 0.05),
+                                                background: alpha('#84cc16', 0.05),
                                             }}
                                         >
                                             <CheckCircle sx={{ color: '#2ed573', fontSize: 20, mt: 0.5 }} />

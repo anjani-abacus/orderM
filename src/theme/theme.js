@@ -1,16 +1,17 @@
 import { createTheme, alpha } from '@mui/material/styles';
 
-const neonCyan = '#00f5ff';
-const neonBlue = '#0080ff';
+// Nexpher-inspired color palette with dark background
+const accentGreen = '#84cc16'; // Lime green accent
+const accentDark = '#65a30d'; // Darker green
 const darkBg = '#0a0a0f';
 const cardBg = '#12121a';
 const surfaceBg = '#1a1a2e';
 
-export const glowEffect = (color = neonCyan, intensity = 0.5) => ({
+export const glowEffect = (color = accentGreen, intensity = 0.5) => ({
     boxShadow: `0 0 10px ${alpha(color, intensity)}, 0 0 20px ${alpha(color, intensity * 0.5)}, 0 0 30px ${alpha(color, intensity * 0.3)}`,
 });
 
-export const glowBorder = (color = neonCyan) => ({
+export const glowBorder = (color = accentGreen) => ({
     border: `1px solid ${alpha(color, 0.5)}`,
     boxShadow: `0 0 10px ${alpha(color, 0.3)}, inset 0 0 10px ${alpha(color, 0.1)}`,
 });
@@ -19,14 +20,15 @@ const theme = createTheme({
     palette: {
         mode: 'dark',
         primary: {
-            main: neonCyan,
-            light: '#66f9ff',
-            dark: '#00b8c4',
+            main: accentGreen,
+            light: '#a3e635',
+            dark: accentDark,
+            contrastText: '#ffffff',
         },
         secondary: {
-            main: neonBlue,
-            light: '#4da6ff',
-            dark: '#005cbf',
+            main: '#ffffff',
+            light: '#ffffff',
+            dark: '#e2e8f0',
         },
         background: {
             default: darkBg,
@@ -37,15 +39,15 @@ const theme = createTheme({
             secondary: alpha('#ffffff', 0.7),
         },
         error: {
-            main: '#ff4757',
+            main: '#ef4444',
         },
         success: {
-            main: '#2ed573',
+            main: '#22c55e',
         },
         warning: {
-            main: '#ffa502',
+            main: '#f59e0b',
         },
-        divider: alpha(neonCyan, 0.2),
+        divider: alpha(accentGreen, 0.2),
     },
     typography: {
         fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
@@ -92,11 +94,11 @@ const theme = createTheme({
                     background: darkBg,
                 },
                 '*::-webkit-scrollbar-thumb': {
-                    background: alpha(neonCyan, 0.3),
+                    background: alpha(accentGreen, 0.3),
                     borderRadius: '4px',
                 },
                 '*::-webkit-scrollbar-thumb:hover': {
-                    background: alpha(neonCyan, 0.5),
+                    background: alpha(accentGreen, 0.5),
                 },
             },
         },
@@ -105,12 +107,12 @@ const theme = createTheme({
                 root: {
                     background: `linear-gradient(145deg, ${cardBg} 0%, ${alpha(surfaceBg, 0.8)} 100%)`,
                     backdropFilter: 'blur(10px)',
-                    border: `1px solid ${alpha(neonCyan, 0.2)}`,
-                    boxShadow: `0 0 20px ${alpha(neonCyan, 0.1)}, inset 0 0 20px ${alpha(neonCyan, 0.05)}`,
+                    border: `1px solid ${alpha(accentGreen, 0.2)}`,
+                    boxShadow: `0 0 20px ${alpha(accentGreen, 0.1)}, inset 0 0 20px ${alpha(accentGreen, 0.05)}`,
                     transition: 'all 0.3s ease',
                     '&:hover': {
-                        border: `1px solid ${alpha(neonCyan, 0.4)}`,
-                        boxShadow: `0 0 30px ${alpha(neonCyan, 0.2)}, inset 0 0 30px ${alpha(neonCyan, 0.1)}`,
+                        border: `1px solid ${alpha(accentGreen, 0.4)}`,
+                        boxShadow: `0 0 30px ${alpha(accentGreen, 0.2)}, inset 0 0 30px ${alpha(accentGreen, 0.1)}`,
                     },
                 },
             },
@@ -131,20 +133,20 @@ const theme = createTheme({
                     transition: 'all 0.3s ease',
                 },
                 contained: {
-                    background: `linear-gradient(135deg, ${neonCyan} 0%, ${neonBlue} 100%)`,
-                    boxShadow: `0 0 20px ${alpha(neonCyan, 0.4)}`,
+                    background: `linear-gradient(135deg, ${accentGreen} 0%, ${accentDark} 100%)`,
+                    boxShadow: `0 0 20px ${alpha(accentGreen, 0.4)}`,
                     '&:hover': {
-                        background: `linear-gradient(135deg, ${neonBlue} 0%, ${neonCyan} 100%)`,
-                        boxShadow: `0 0 30px ${alpha(neonCyan, 0.6)}`,
+                        background: `linear-gradient(135deg, ${accentDark} 0%, ${accentGreen} 100%)`,
+                        boxShadow: `0 0 30px ${alpha(accentGreen, 0.6)}`,
                         transform: 'translateY(-2px)',
                     },
                 },
                 outlined: {
-                    borderColor: alpha(neonCyan, 0.5),
+                    borderColor: alpha(accentGreen, 0.5),
                     '&:hover': {
-                        borderColor: neonCyan,
-                        boxShadow: `0 0 15px ${alpha(neonCyan, 0.3)}`,
-                        background: alpha(neonCyan, 0.1),
+                        borderColor: accentGreen,
+                        boxShadow: `0 0 15px ${alpha(accentGreen, 0.3)}`,
+                        background: alpha(accentGreen, 0.1),
                     },
                 },
             },
@@ -156,15 +158,15 @@ const theme = createTheme({
                         background: alpha(darkBg, 0.5),
                         transition: 'all 0.3s ease',
                         '& fieldset': {
-                            borderColor: alpha(neonCyan, 0.3),
+                            borderColor: alpha(accentGreen, 0.3),
                             transition: 'all 0.3s ease',
                         },
                         '&:hover fieldset': {
-                            borderColor: alpha(neonCyan, 0.5),
+                            borderColor: alpha(accentGreen, 0.5),
                         },
                         '&.Mui-focused fieldset': {
-                            borderColor: neonCyan,
-                            boxShadow: `0 0 15px ${alpha(neonCyan, 0.3)}`,
+                            borderColor: accentGreen,
+                            boxShadow: `0 0 15px ${alpha(accentGreen, 0.3)}`,
                         },
                     },
                 },
@@ -175,14 +177,14 @@ const theme = createTheme({
                 root: {
                     background: alpha(darkBg, 0.5),
                     '& .MuiOutlinedInput-notchedOutline': {
-                        borderColor: alpha(neonCyan, 0.3),
+                        borderColor: alpha(accentGreen, 0.3),
                     },
                     '&:hover .MuiOutlinedInput-notchedOutline': {
-                        borderColor: alpha(neonCyan, 0.5),
+                        borderColor: alpha(accentGreen, 0.5),
                     },
                     '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                        borderColor: neonCyan,
-                        boxShadow: `0 0 15px ${alpha(neonCyan, 0.3)}`,
+                        borderColor: accentGreen,
+                        boxShadow: `0 0 15px ${alpha(accentGreen, 0.3)}`,
                     },
                 },
             },
@@ -198,11 +200,11 @@ const theme = createTheme({
             styleOverrides: {
                 label: {
                     '&.Mui-active': {
-                        color: neonCyan,
-                        textShadow: `0 0 10px ${alpha(neonCyan, 0.5)}`,
+                        color: accentGreen,
+                        textShadow: `0 0 10px ${alpha(accentGreen, 0.5)}`,
                     },
                     '&.Mui-completed': {
-                        color: '#2ed573',
+                        color: '#22c55e',
                     },
                 },
             },
@@ -211,11 +213,11 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     '&.Mui-active': {
-                        color: neonCyan,
-                        filter: `drop-shadow(0 0 8px ${alpha(neonCyan, 0.8)})`,
+                        color: accentGreen,
+                        filter: `drop-shadow(0 0 8px ${alpha(accentGreen, 0.8)})`,
                     },
                     '&.Mui-completed': {
-                        color: '#2ed573',
+                        color: '#22c55e',
                     },
                 },
             },
@@ -224,10 +226,10 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     '& .MuiTableCell-head': {
-                        background: alpha(neonCyan, 0.1),
-                        color: neonCyan,
+                        background: alpha(accentGreen, 0.1),
+                        color: accentGreen,
                         fontWeight: 600,
-                        borderBottom: `2px solid ${alpha(neonCyan, 0.3)}`,
+                        borderBottom: `2px solid ${alpha(accentGreen, 0.3)}`,
                     },
                 },
             },
@@ -237,7 +239,7 @@ const theme = createTheme({
                 root: {
                     transition: 'all 0.2s ease',
                     '&:hover': {
-                        background: alpha(neonCyan, 0.05),
+                        background: alpha(accentGreen, 0.05),
                     },
                 },
             },
@@ -248,16 +250,16 @@ const theme = createTheme({
                     borderRadius: '8px',
                 },
                 filled: {
-                    background: alpha(neonCyan, 0.2),
-                    color: neonCyan,
+                    background: alpha(accentGreen, 0.2),
+                    color: accentGreen,
                     '&:hover': {
-                        background: alpha(neonCyan, 0.3),
+                        background: alpha(accentGreen, 0.3),
                     },
                 },
                 outlined: {
-                    borderColor: alpha(neonCyan, 0.5),
+                    borderColor: alpha(accentGreen, 0.5),
                     '&:hover': {
-                        background: alpha(neonCyan, 0.1),
+                        background: alpha(accentGreen, 0.1),
                     },
                 },
             },
@@ -265,8 +267,8 @@ const theme = createTheme({
         MuiDialog: {
             styleOverrides: {
                 paper: {
-                    border: `1px solid ${alpha(neonCyan, 0.3)}`,
-                    boxShadow: `0 0 40px ${alpha(neonCyan, 0.2)}`,
+                    border: `1px solid ${alpha(accentGreen, 0.3)}`,
+                    boxShadow: `0 0 40px ${alpha(accentGreen, 0.2)}`,
                 },
             },
         },
@@ -274,7 +276,7 @@ const theme = createTheme({
             styleOverrides: {
                 paper: {
                     background: `linear-gradient(180deg, ${cardBg} 0%, ${darkBg} 100%)`,
-                    borderRight: `1px solid ${alpha(neonCyan, 0.2)}`,
+                    borderRight: `1px solid ${alpha(accentGreen, 0.2)}`,
                 },
             },
         },
@@ -282,8 +284,8 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     background: `linear-gradient(90deg, ${darkBg} 0%, ${cardBg} 50%, ${darkBg} 100%)`,
-                    borderBottom: `1px solid ${alpha(neonCyan, 0.2)}`,
-                    boxShadow: `0 0 20px ${alpha(neonCyan, 0.1)}`,
+                    borderBottom: `1px solid ${alpha(accentGreen, 0.2)}`,
+                    boxShadow: `0 0 20px ${alpha(accentGreen, 0.1)}`,
                 },
             },
         },

@@ -84,7 +84,7 @@ const Navbar = () => {
                 <Typography
                     variant="h6"
                     sx={{
-                        background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                        background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                         backgroundClip: 'text',
                         WebkitBackgroundClip: 'text',
                         color: 'transparent',
@@ -93,11 +93,11 @@ const Navbar = () => {
                 >
                     OrderMS
                 </Typography>
-                <IconButton onClick={() => setDrawerOpen(false)} sx={{ color: '#00f5ff' }}>
+                <IconButton onClick={() => setDrawerOpen(false)} sx={{ color: '#84cc16' }}>
                     <Close />
                 </IconButton>
             </Box>
-            <Divider sx={{ borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ borderColor: alpha('#84cc16', 0.2) }} />
 
             <Box sx={{ p: 2 }}>
                 <Typography variant="body2" color="text.secondary">
@@ -113,12 +113,12 @@ const Navbar = () => {
                         mt: 1,
                         background: user?.role === 'ADMIN'
                             ? alpha('#ff6b6b', 0.2)
-                            : alpha('#00f5ff', 0.2),
-                        color: user?.role === 'ADMIN' ? '#ff6b6b' : '#00f5ff',
+                            : alpha('#84cc16', 0.2),
+                        color: user?.role === 'ADMIN' ? '#ff6b6b' : '#84cc16',
                     }}
                 />
             </Box>
-            <Divider sx={{ borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ borderColor: alpha('#84cc16', 0.2) }} />
 
             <List sx={{ flex: 1, pt: 2 }}>
                 {menuItems
@@ -131,18 +131,18 @@ const Navbar = () => {
                                     mx: 1,
                                     borderRadius: 2,
                                     mb: 0.5,
-                                    background: isActive(item.path) ? alpha('#00f5ff', 0.15) : 'transparent',
+                                    background: isActive(item.path) ? alpha('#84cc16', 0.15) : 'transparent',
                                     border: isActive(item.path)
-                                        ? `1px solid ${alpha('#00f5ff', 0.3)}`
+                                        ? `1px solid ${alpha('#84cc16', 0.3)}`
                                         : '1px solid transparent',
                                     '&:hover': {
-                                        background: alpha('#00f5ff', 0.1),
+                                        background: alpha('#84cc16', 0.1),
                                     },
                                 }}
                             >
                                 <ListItemIcon
                                     sx={{
-                                        color: isActive(item.path) ? '#00f5ff' : alpha('#fff', 0.7),
+                                        color: isActive(item.path) ? '#84cc16' : alpha('#fff', 0.7),
                                         minWidth: 40,
                                     }}
                                 >
@@ -152,7 +152,7 @@ const Navbar = () => {
                                     primary={item.text}
                                     sx={{
                                         '& .MuiTypography-root': {
-                                            color: isActive(item.path) ? '#00f5ff' : '#fff',
+                                            color: isActive(item.path) ? '#84cc16' : '#fff',
                                             fontWeight: isActive(item.path) ? 600 : 400,
                                         },
                                     }}
@@ -163,7 +163,7 @@ const Navbar = () => {
 
                 {user?.role === 'ADMIN' && (
                     <>
-                        <Divider sx={{ my: 2, borderColor: alpha('#00f5ff', 0.2) }} />
+                        <Divider sx={{ my: 2, borderColor: alpha('#84cc16', 0.2) }} />
                         <ListItem>
                             <ListItemIcon sx={{ minWidth: 40, color: alpha('#fff', 0.5) }}>
                                 <AdminPanelSettings />
@@ -181,18 +181,18 @@ const Navbar = () => {
                                         mx: 1,
                                         borderRadius: 2,
                                         mb: 0.5,
-                                        background: isActive(item.path) ? alpha('#00f5ff', 0.15) : 'transparent',
+                                        background: isActive(item.path) ? alpha('#84cc16', 0.15) : 'transparent',
                                         border: isActive(item.path)
-                                            ? `1px solid ${alpha('#00f5ff', 0.3)}`
+                                            ? `1px solid ${alpha('#84cc16', 0.3)}`
                                             : '1px solid transparent',
                                         '&:hover': {
-                                            background: alpha('#00f5ff', 0.1),
+                                            background: alpha('#84cc16', 0.1),
                                         },
                                     }}
                                 >
                                     <ListItemIcon
                                         sx={{
-                                            color: isActive(item.path) ? '#00f5ff' : alpha('#fff', 0.7),
+                                            color: isActive(item.path) ? '#84cc16' : alpha('#fff', 0.7),
                                             minWidth: 40,
                                         }}
                                     >
@@ -202,7 +202,7 @@ const Navbar = () => {
                                         primary={item.text}
                                         sx={{
                                             '& .MuiTypography-root': {
-                                                color: isActive(item.path) ? '#00f5ff' : '#fff',
+                                                color: isActive(item.path) ? '#84cc16' : '#fff',
                                                 fontWeight: isActive(item.path) ? 600 : 400,
                                             },
                                         }}
@@ -214,7 +214,7 @@ const Navbar = () => {
                 )}
             </List>
 
-            <Divider sx={{ borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ borderColor: alpha('#84cc16', 0.2) }} />
             <List>
                 <ListItem disablePadding>
                     <ListItemButton
@@ -261,7 +261,7 @@ const Navbar = () => {
                         sx={{
                             flexGrow: isMobile ? 1 : 0,
                             mr: 4,
-                            background: 'linear-gradient(135deg, #00f5ff 0%, #0080ff 100%)',
+                            background: 'linear-gradient(135deg, #84cc16 0%, #65a30d 100%)',
                             backgroundClip: 'text',
                             WebkitBackgroundClip: 'text',
                             color: 'transparent',
@@ -284,13 +284,13 @@ const Navbar = () => {
                                             startIcon={item.icon}
                                             onClick={() => handleNavigation(item.path)}
                                             sx={{
-                                                color: isActive(item.path) ? '#00f5ff' : '#fff',
-                                                background: isActive(item.path) ? alpha('#00f5ff', 0.1) : 'transparent',
+                                                color: isActive(item.path) ? '#84cc16' : '#fff',
+                                                background: isActive(item.path) ? alpha('#84cc16', 0.1) : 'transparent',
                                                 border: isActive(item.path)
-                                                    ? `1px solid ${alpha('#00f5ff', 0.3)}`
+                                                    ? `1px solid ${alpha('#84cc16', 0.3)}`
                                                     : '1px solid transparent',
                                                 '&:hover': {
-                                                    background: alpha('#00f5ff', 0.1),
+                                                    background: alpha('#84cc16', 0.1),
                                                 },
                                             }}
                                         >
@@ -303,15 +303,15 @@ const Navbar = () => {
                                         startIcon={<AdminPanelSettings />}
                                         onClick={() => handleNavigation('/admin/services')}
                                         sx={{
-                                            color: location.pathname.startsWith('/admin') ? '#00f5ff' : '#fff',
+                                            color: location.pathname.startsWith('/admin') ? '#84cc16' : '#fff',
                                             background: location.pathname.startsWith('/admin')
-                                                ? alpha('#00f5ff', 0.1)
+                                                ? alpha('#84cc16', 0.1)
                                                 : 'transparent',
                                             border: location.pathname.startsWith('/admin')
-                                                ? `1px solid ${alpha('#00f5ff', 0.3)}`
+                                                ? `1px solid ${alpha('#84cc16', 0.3)}`
                                                 : '1px solid transparent',
                                             '&:hover': {
-                                                background: alpha('#00f5ff', 0.1),
+                                                background: alpha('#84cc16', 0.1),
                                             },
                                         }}
                                     >
@@ -333,8 +333,8 @@ const Navbar = () => {
                                             fontSize: '0.7rem',
                                             background: user?.role === 'ADMIN'
                                                 ? alpha('#ff6b6b', 0.2)
-                                                : alpha('#00f5ff', 0.2),
-                                            color: user?.role === 'ADMIN' ? '#ff6b6b' : '#00f5ff',
+                                                : alpha('#84cc16', 0.2),
+                                            color: user?.role === 'ADMIN' ? '#ff6b6b' : '#84cc16',
                                         }}
                                     />
                                 </Box>

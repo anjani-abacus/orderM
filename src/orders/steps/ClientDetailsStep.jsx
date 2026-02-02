@@ -42,7 +42,7 @@ const ClientDetailsStep = ({ formData, onNext }) => {
     const SectionHeader = ({ icon, title }) => (
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 2 }}>
             {icon}
-            <Typography variant="h6" sx={{ color: '#00f5ff' }}>
+            <Typography variant="h6" sx={{ color: '#84cc16' }}>
                 {title}
             </Typography>
         </Box>
@@ -52,7 +52,7 @@ const ClientDetailsStep = ({ formData, onNext }) => {
         <form onSubmit={handleSubmit(onSubmit)}>
             {/* Company Details */}
             <SectionHeader
-                icon={<Business sx={{ color: '#00f5ff' }} />}
+                icon={<Business sx={{ color: '#84cc16' }} />}
                 title="Company Details"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
@@ -77,11 +77,11 @@ const ClientDetailsStep = ({ formData, onNext }) => {
                 </Grid>
             </Grid>
 
-            <Divider sx={{ my: 4, borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ my: 4, borderColor: alpha('#84cc16', 0.2) }} />
 
             {/* Client Details */}
             <SectionHeader
-                icon={<Person sx={{ color: '#00f5ff' }} />}
+                icon={<Person sx={{ color: '#84cc16' }} />}
                 title="Client Details"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
@@ -115,11 +115,11 @@ const ClientDetailsStep = ({ formData, onNext }) => {
                 </Grid>
             </Grid>
 
-            <Divider sx={{ my: 4, borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ my: 4, borderColor: alpha('#84cc16', 0.2) }} />
 
             {/* Billing Address */}
             <SectionHeader
-                icon={<LocationOn sx={{ color: '#00f5ff' }} />}
+                icon={<LocationOn sx={{ color: '#84cc16' }} />}
                 title="Billing Address"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
@@ -172,11 +172,11 @@ const ClientDetailsStep = ({ formData, onNext }) => {
                 </Grid>
             </Grid>
 
-            <Divider sx={{ my: 4, borderColor: alpha('#00f5ff', 0.2) }} />
+            <Divider sx={{ my: 4, borderColor: alpha('#84cc16', 0.2) }} />
 
             {/* Representative Details */}
             <SectionHeader
-                icon={<Person sx={{ color: '#00f5ff' }} />}
+                icon={<Person sx={{ color: '#84cc16' }} />}
                 title="Representative Details"
             />
             <Grid container spacing={3} sx={{ mb: 4 }}>
