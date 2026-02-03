@@ -1,6 +1,17 @@
-import { ObjectType, Field, ID, Float } from "@nestjs/graphql";
-import { OrderStatus } from "@prisma/client";
-import { User } from "../../users/models/user.model";
+import { ObjectType, Field, ID, Float, registerEnumType } from '@nestjs/graphql';
+import { User } from '../../users/models/user.model';
+
+// Define OrderStatus enum for GraphQL
+export enum OrderStatus {
+  PENDING = 'PENDING',
+  CONFIRMED = 'CONFIRMED',
+  SHIPPED = 'SHIPPED',
+  CANCELLED = 'CANCELLED',
+}
+
+registerEnumType(OrderStatus, {
+  name: 'OrderStatus',
+});
 
 @ObjectType()
 export class Order {
