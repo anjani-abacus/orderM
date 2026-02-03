@@ -1,6 +1,6 @@
 import { Injectable, ForbiddenException } from '@nestjs/common';
 import { PrismaService } from '../common/prisma.service';
-import { Order, OrderStatus, User } from '../generated/prisma';
+import { Order, OrderStatus, User } from '@prisma/client';
 import { CreateOrderInput } from './dto/create-order.input';
 import { UpdateOrderInput } from './dto/update-order.input';
 import { OrderStats } from './models/order-stats.model';

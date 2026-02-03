@@ -3,7 +3,7 @@ import { PrismaService } from '../common/prisma.service';
 import { JwtService } from '@nestjs/jwt';
 import * as bcrypt from 'bcrypt';
 import { Response } from 'express';
-import { User } from '../generated/prisma';
+import { User } from '@prisma/client';
 
 interface LoginInput {
   email: string;
