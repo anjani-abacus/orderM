@@ -1,3 +1,4 @@
+// Prisma 5 schema configuration
 generator client {
   provider = "prisma-client-js"
 }
