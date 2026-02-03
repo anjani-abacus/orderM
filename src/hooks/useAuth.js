@@ -1,4 +1,4 @@
-import { useMutation, useApolloClient } from '@apollo/client';
+import { useMutation, useApolloClient } from '@apollo/client/react';
 import { useState, useCallback } from 'react';
 import { LOGIN, LOGOUT } from '../graphql/mutations';
 

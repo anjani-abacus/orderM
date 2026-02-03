@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Box, Typography, Chip, IconButton, Tooltip, Alert, CircularProgress, Switch } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { Refresh as RefreshIcon } from '@mui/icons-material';
-import { useQuery } from '@apollo/client';
+import { useQuery } from '@apollo/client/react';
 import { GET_USERS } from '../graphql/queries';
 
 const roleColors = {
