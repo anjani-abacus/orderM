@@ -1,10 +1,5 @@
 import { Field, ObjectType, ID, registerEnumType } from '@nestjs/graphql';
-
-// Define Role enum for GraphQL
-export enum Role {
-  ADMIN = 'ADMIN',
-  USER = 'USER',
-}
+import { Role } from '@prisma/client';
 
 registerEnumType(Role, {
   name: 'Role',
